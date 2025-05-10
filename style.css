@@ -19,11 +19,11 @@ body{
 .home_banner{
   position: relative;
   width: 93%;
-  margin: 37px auto;
+  margin: 0px auto;
   padding: 13px;
   background-color: black;
   border: 2px solid black;
-  border-radius: 7px;
+
   
 }
 .home_banner img{
@@ -51,15 +51,15 @@ body{
     margin-bottom: 17px;
 }
 .home_text p {
-    color: #a39c9384;
+    color: #f1eae184;
     line-height: normal;
     font-weight: 800;
 }
 
 header{
-    position: fixed;
-    width: 1170px;
-    padding: 20px 0px;
+    position:relative;
+    width: 1168.5px;
+    padding: 25px 0px;
     background: rgb(109, 101, 106);
     display: flex;
     justify-content: space-between;
@@ -235,9 +235,9 @@ header{
   .contact_container {
     background-color: black;
     color: white;
-   height: 350px;
+   height: 380px;
     border-radius: 7px;
-    width: 96%;
+    width: 98%;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -250,13 +250,13 @@ header{
   }
   
   .contact-heading p {
-    margin: 0;
+    margin-top: 20px;
     font-size: 18px;
     color: #ccc;
   }
   
   .contact-heading h1 {
-    margin: 5px 0 0;
+    margin-top: 16px ;
     font-size: 32px;
   }
   
@@ -280,7 +280,7 @@ header{
   margin-left:490px ;
   color: white;
   margin-top: -168px;
-
+  
 
 }
 .first-contact-div{
@@ -299,7 +299,7 @@ header{
   align-items: center;
   gap: 20px; 
   width: 350PX;
-  padding: 20px 5px;
+  padding: 20px 3px;
   background-color: #787474;
 }
 .contact-info img{  
@@ -312,7 +312,7 @@ height: 24px;
   display: flex;
   align-items: center;
   gap: 10px; 
-  padding: 21px 5px;
+  padding: 21px 3px;
   margin-top:10px;
   width: 350PX;
   background-color: #787474;
@@ -325,7 +325,7 @@ height: 24px;
   display: flex;
   align-items: center;
   gap: 10px; 
-  padding: 21px 5px;
+  padding: 21px 3px;
   margin-top:0px;
   width: 350PX;
   background-color: #787474;
@@ -345,17 +345,18 @@ height: 24px;
   display: flex;
   align-items: center;
   gap: 10px; 
-  padding: 17px 5px;
+  padding: 17px 3px;
 margin-top:10px;
 width: 350PX;
 background-color: #787474;
 }
+
 .vertical-line {
   width: 1px;
   height: 150px;
   margin-right: 400px; 
   background-color: #ccc; 
-  align-self: 
+   
 }
   
 @media (max-width: 1024px) {
@@ -439,7 +440,7 @@ background-color: #787474;
 
   .contact_container {
     width: 100%;
-    padding: 10px;
+    padding: 0px;
   }
 
   .contact-content-row {
@@ -451,7 +452,6 @@ background-color: #787474;
     padding: 0;
   }
 
-  /* Adjusted widths for side-by-side layout */
   .first-contact-div,
   .second-content-div {
     width: 45%;
@@ -464,7 +464,7 @@ background-color: #787474;
 }
 
 
-@media (max-width: 758px) {
+@media (max-width: 778px) {
   .contact-content-row {
     flex-direction: column;
     align-items: center;
